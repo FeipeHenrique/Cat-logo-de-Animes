@@ -28,6 +28,11 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 10px;
+}
+.catalogo h2 {
+    width: 100%;
+    text-align: left;
 }
 
 .anime-card {
@@ -37,6 +42,10 @@ main {
     width: 200px;
     text-align: center;
     padding: 10px;
+    transition: 0.3s;
+}
+.anime-card:hover {
+    transform: translateY(-5px);
 }
 
 .anime-card img {
