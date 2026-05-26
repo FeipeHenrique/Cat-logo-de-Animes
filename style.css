@@ -32,10 +32,10 @@ main {
 }
 .catalogo h2 {
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
-.anime-card {
+.card {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -44,26 +44,30 @@ main {
     padding: 10px;
     transition: 0.3s;
 }
-.anime-card:hover {
+.card:hover {
     transform: translateY(-5px);
 }
 
-.anime-card img {
+.card img {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-.anime-card h3 {
+.card h3 {
     margin: 10px 0;
 }
 
-.anime-card a {
+.card a {
     display: inline-block;
     margin-bottom: 10px;
     color: #007BFF;
     text-decoration: none;
 }
 
-.anime-card a:hover {
+.card a:hover {
     text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }

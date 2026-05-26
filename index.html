@@ -1,214 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimeCata</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>AnimeCata</h1>
         <p>O melhor catálogo de animes do Brasil</p>
 
-        <input type="text" placeholder="Pesquisar anime...">
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Pesquisar anime...">
+        </div>
+
     </header>
 
     <main>
 
         <section class="catalogo">
-            <h2>Categoria: Ação</h2>
+            <h2 class="categoria"> Ação</h2>
 
-            <div class="anime-card">
+            <div id="card-acao-1" class="card" data-name="Attack on Titan">
                 <img src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" alt="Attack on Titan">
 
                 <h3>Attack on Titan</h3>
-                <a href="https://myanimelist.net/anime/16498/Attack_on_Titan"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/16498/Attack_on_Titan" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-acao-2" class="card" data-name="Naruto">
                 <img src="https://myanimelist.net/images/anime/1141/142503.jpg" alt="Naruto">
 
                 <h3>Naruto</h3>
-                <a href="https://myanimelist.net/anime/20/Naruto"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/20/Naruto" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Dragon Ball">
                 <img src="https://myanimelist.net/images/anime/1277/142022.jpg" alt="Dragon Ball">
 
                 <h3>Dragon Ball</h3>
-                <a href="https://myanimelist.net/anime/813/Dragon_Ball_Z"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/813/Dragon_Ball_Z" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Kimetsu no Yaiba">
                 <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Kimetsu no Yaiba">
 
                 <h3>Kimetsu no Yaiba</h3>
-                <a href="https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba?q=demon&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba?q=demon&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="One Punch Man">
                 <img src="https://myanimelist.net/images/anime/12/76049.jpg" alt="One Punch Man">
 
                 <h3>One Punch Man</h3>
-                <a href="https://myanimelist.net/anime/30276/One_Punch_Man"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/30276/One_Punch_Man" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Jujutsu Kaisen">
                 <img src="https://myanimelist.net/images/anime/1171/109222.jpg" alt="Jujutsu Kaisen">
 
                 <h3>Jujutsu Kaisen</h3>
-                <a href="https://myanimelist.net/anime/40748/Jujutsu_Kaisen?q=juju&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/40748/Jujutsu_Kaisen?q=juju&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
         </section>
 
         <section class="catalogo">
-            <h2>Categoria: Aventura</h2>
+            <h2 class="categoria"> Aventura</h2>
 
-            <div class="anime-card">
+            <div id="card-aventura-1" class="card" data-name="Jojo's Bizarre Adventure">
                 <img src="https://cdn.myanimelist.net/images/anime/1882/94989.jpg" alt="Jojo's Bizarre Adventure">
 
                 <h3>Jojo's Bizarre Adventure</h3>
-                <a href="https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-aventura-2" class="card" data-name="Hunter x Hunter">
                 <img src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg" alt="Hunter x Hunter">
 
                 <h3>Hunter x Hunter</h3>
-                <a href="https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011?q=hunter&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011?q=hunter&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-aventura-3" class="card" data-name="Frieren">
                 <img src="https://cdn.myanimelist.net/images/anime/1015/138006.jpg" alt="Frieren">
 
                 <h3>Frieren</h3>
-                <a href="https://myanimelist.net/anime/52991/Sousou_no_Frieren"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/52991/Sousou_no_Frieren" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-aventura-4" class="card" data-name="Pokemon">
                 <img src="https://myanimelist.net/images/anime/1787/140239.jpg" alt="Pokemon">
 
                 <h3>Pokemon</h3>
-                <a href="https://myanimelist.net/anime/527/Pokemon?q=pokemon&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/527/Pokemon?q=pokemon&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-aventura-5" class="card" data-name="One Piece">
                 <img src="https://myanimelist.net/images/anime/1244/138851.jpg" alt="One Piece">
 
                 <h3>One Piece</h3>
-                <a href="https://myanimelist.net/anime/21/One_Piece"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/21/One_Piece" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div id="card-aventura-6" class="card" data-name="Digimon Adventure">
                 <img src="https://cdn.myanimelist.net/images/anime/1471/99249.jpg" alt="Digimon Adventure">
 
                 <h3>Digimon Adventure</h3>
-                <a href="https://myanimelist.net/anime/552/Digimon_Adventure?q=digm&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/552/Digimon_Adventure?q=digm&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
-            
+
         </section>
 
         <section class="catalogo">
-            <h2>Categoria: Esportes</h2>
+            <h2 class="categoria"> Esportes</h2>
 
-            <div class="anime-card">
+            <div class="card" data-name="Haikyuu!!">
                 <img src="https://cdn.myanimelist.net/images/anime/7/76014.jpg" alt="Haikyuu!!">
 
                 <h3>Haikyuu!!</h3>
-                <a href="https://myanimelist.net/anime/20583/Haikyuu"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/20583/Haikyuu" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Kuroko no Basket">
                 <img src="https://cdn.myanimelist.net/images/anime/11/50453.jpg" alt="Kuroko no Basket">
 
                 <h3>Kuroko no Basket</h3>
-                <a href="https://myanimelist.net/anime/11771/Kuroko_no_Basket"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/11771/Kuroko_no_Basket" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Super 11">
                 <img src="https://cdn.myanimelist.net/images/anime/1854/94704.jpg" alt="Super 11">
 
                 <h3>Super 11</h3>
-                <a href="https://myanimelist.net/anime/5231/Inazuma_Eleven"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/5231/Inazuma_Eleven" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Yowamushi Pedal">
                 <img src="https://cdn.myanimelist.net/images/anime/12/67799.jpg" alt="Yowamushi Pedal ">
 
                 <h3>Yowamushi Pedal</h3>
-                <a href="https://myanimelist.net/anime/24277/Yowamushi_Pedal__Grande_Road"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/24277/Yowamushi_Pedal__Grande_Road" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Captain Tsubasa">
                 <img src="https://cdn.myanimelist.net/images/anime/1866/91270.jpg" alt="Captain Tsubasa">
 
                 <h3>Captain Tsubasa</h3>
-                <a href="https://myanimelist.net/anime/36934/Captain_Tsubasa_2018"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/36934/Captain_Tsubasa_2018" target="_blank">
                     Ver sinopse
                 </a>
             </div>
 
-            <div class="anime-card">
+            <div class="card" data-name="Blue Lock">
                 <img src="https://cdn.myanimelist.net/images/anime/1258/126929.jpg" alt="Blue Lock">
 
                 <h3>Blue Lock</h3>
-                <a href="https://myanimelist.net/anime/49596/Blue_Lock?q=blue%20lo&cat=anime"
-                   target="_blank">
+                <a href="https://myanimelist.net/anime/49596/Blue_Lock?q=blue%20lo&cat=anime" target="_blank">
                     Ver sinopse
                 </a>
             </div>
         </section>
     </main>
 
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
